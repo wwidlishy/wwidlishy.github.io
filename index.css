@@ -17,6 +17,6 @@ display: flex; flex-direction: column;
   left: 0%;
 }
 
-img {
-  touch-action: manipulation;
+body {
+  touch-action: none;
 }
