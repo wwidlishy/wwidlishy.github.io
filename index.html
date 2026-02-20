@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <center>
+        <h1>Maciej Maciak Clicker</h1>
+        <br><br><br><br><br><br>
+        <h2 id="points">points</h2>
+    </center>
+    <div class="shop">
+        <h1>Sklep</h1>
+        <br><br><br>
+        <button id="buy-upgrade" onclick="BuyUpgrade()">kup upgrade: 30</button>
+        <button id="buy-secretary" onclick="BuySecretary()">zatrudnij sekretarza DIP: 150</button>
+        <button id="upgrade-secretary" onclick="UpgradeSecretary()">kup monstera sekretarzom DIP: 200</button>
+        <br>
+        <p id="stats">pt/click: 0</p>
+    </div>
+    <div class="center">
+        <img onclick="AddPoints()" src="assets/images.webp">
+    </div>
+
+    <script src="index.js"></script>
+</body>
